@@ -1,0 +1,10 @@
+#@lxpanel --profile LXDE
+#@pcmanfm --desktop --profile LXDE
+#These three parameters setup kiosk mode
+@xset s off
+@xset -dpms
+@xset s nonblank
+#Start my App
+@sudo sh -c "/start_wifiradio.sh"
+#Start Wifi
+@sudo ifup wlan0

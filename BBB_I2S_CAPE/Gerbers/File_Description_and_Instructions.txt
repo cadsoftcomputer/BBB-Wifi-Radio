@@ -1,0 +1,18 @@
+Description of Gerber Files
+
+cmp- Top Copper
+crc- Top Stencil Mask (Probably not necessary since I'm doing the assembly)
+crs- Bottom Stencil Mask (Probably not necessary since I'm doing the assembly)
+drd- Excellon Drill file
+mil- Milling information. This design uses a part that requires slots instead of normal
+     holes. This file contains the location and geometry of those slots.
+plc- Top Silkscreen
+pls- Bottom Silkscreen
+sol- Bottom Copper
+stc- Top stop mask
+sts- Bottom stop mask
+
+Additional Instructions
+- Green or Red stopmask
+- White Silkscreen
+- HAL process is sufficient

@@ -1,0 +1,46 @@
+Description of Software folder contents
+
+- start_wifiradio.sh
+
+This is a very simple shell script whose only role is to launch the Python interface executable. Only 4 lines.
+
+- autostart
+
+This file should be stored in the /etc/xdg/lxsession/LXDE/ directory on your BBB. It can be used to determine what applications
+are run when the GUI starts up. I used it to run the start_wifiradio.sh and to start the Wifi dongle so that music can be streamed.
+I also used it to set LXDE to start in kiosk mode that way you only see the Radio application.
+
+- elementary_icons_by_danrabbit-d12yjq7
+
+The three icons used in the application, were obtained for elementary OS icon set in the attached zip file.
+
+- stations/
+
+This folder contains the default set of stations that I added to my radio. These .pls files were obtained from http://shoutcast.com/. This
+site is an excellent directory to what online radio has to offer, all neatly organized by category. Find a station you like then right-click
+on the download icon and select Save Link As... to get the .pls file.
+
+- .mpdconf
+
+This is the configuration file for MPD. It's very well documented and it's not too different from the default conf file. The noteworthy changes are
+that MPD is not setup to run as root, I've specified the ALSA output and set the volume control to be determined by software. This last part is 
+very important since it allows the Python app to control the volume.
+
+- trunk/media-playback-start, trunk/media-playback-stop, and trunk/audio-volume-high-panel
+
+These are the three icons I used specifically from the elementary icon set.
+
+- trunk/Interface_BBB_Wifi_Radio.py
+
+This is the most import Python file. It contains the Radio GUI written using Tkinter and Python. This interface actually covers some ground
+as far what the Tk GUI libraries can do so it can be a useful reference. This file calls mpcint.py.
+
+- trunk/mpcint.py
+
+This file contains the interface to MPC which is used to control MPD, the program that handles the hardwork of playing the audio streams. Its
+basically a thin wrapper so that python can call MPC.
+
+- trunk/add_stations.py
+
+This is a simple helper script. Basically you tell it where your stations are stored and it runs through all of the .pls files in that directory
+and adds them to MPD's playlist.

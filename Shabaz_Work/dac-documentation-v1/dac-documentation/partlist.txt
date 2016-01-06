@@ -1,0 +1,88 @@
+DAC Board parts list
+
+D.N.F. means Do Not Fit
+
+Part     Value          Device   
+----     ------------   ------------------------------             
+
+C1       100n           Capacitor 0603  SMD              
+C2       100n           Capacitor 0603  SMD              
+C3       100n           Capacitor 0603  SMD              
+C4       100n           Capacitor 0603  SMD              
+C5       10n            Capacitor 0603  SMD              
+C6       100n           Capacitor 0603  SMD              
+C7       10uF           Capacitor 0805 X5R  SMD              
+C8       100n           Capacitor 0603  SMD              
+C9       100n           Capacitor 0603  SMD              
+C10      2.2uF          Capacitor 0805  SMD              
+C11      2.2uF          Capacitor 0805  SMD              
+C12      2.2uF          Capacitor 0805  SMD              
+C13      2.2uF          Capacitor 0805  SMD              
+C14      2n2            Capacitor 0603 NP0  SMD              
+C15      2n2            Capacitor 0603 NP0  SMD              
+C16      10n            Capacitor 0603  SMD              
+C17      1uF            Capacitor 0805 X5R SMD              
+C18      1uF            Capacitor 0805 X5R SMD              
+C19      1uF            Capacitor 0805 X5R SMD              
+C20      100p           Capacitor 0603  SMD              
+C21      100n           Capacitor 0603  SMD              
+C22      100n           Capacitor 0603  SMD              
+C23      100n           Capacitor 0603  SMD              
+C24      100uF 16V      CAP-PANA-F EEEFP1C101AP Farnell 1539476       
+C25      1uF            Capacitor 0805 X5R SMD              
+C26      220n           Capacitor 0805  SMD              
+C27      220n           Capacitor 0805  SMD              
+C28      100n           Capacitor 0603  SMD              
+C29      100uF 16V      CAP-PANA-F EEEFP1C101AP Farnell 1539476        
+C30      1uF            Capacitor 0805 X5R SMD              
+C31      10n            Capacitor 0603  SMD              
+C32      220n           Capacitor 0805  SMD              
+J1       3.5mm Jack     Lumberg 1503-13 Farnell 1368640            
+J2       3.5mm Jack     Lumberg 1503-13 Farnell 1368640            
+J3       SIL2           Header 2-way                 
+J4       SIL3           Header 3-way                 
+J5       SIL2           Header 2-way                 
+J6       SIL2           Header 2-way                 
+J7       SIL8           Header 8-way                            
+L1       FBEAD          0805 Ferrite 2508053017Y0 Farnell 1611983       
+L2       FBEAD          0805 Ferrite 2508053017Y0 Farnell 1611983        
+L3       FBEAD          0805 Ferrite 2508053017Y0 Farnell 1611983         
+R1       10k            Resistor 0603 SMD              
+R2       2.2k           Resistor 0603 SMD              
+R3       10k            Resistor 0603 SMD              
+R4       10k            Resistor 0603 SMD              
+R5       10k            Resistor 0603 SMD              
+R6       470R           Resistor 0603 SMD              
+R7       470R           Resistor 0603 SMD              
+R8       D.N.F.         Resistor 0603 SMD              
+R9       10k            Resistor 0603 SMD              
+R10      10k            Resistor 0603 SMD              
+R11      10k            Resistor 0603 SMD              
+R12      10k            Resistor 0603 SMD              
+R13      10R            Resistor 0603 SMD              
+R14      10R            Resistor 0603 SMD              
+R15      10k            Resistor 0603 SMD              
+R16      D.N.F.         Resistor 0603 SMD              
+R17      33R            Resistor 0603 SMD              
+R18      10k            Resistor 0603 SMD              
+R19      33R            Resistor 0603 SMD              
+R20      33R            Resistor 0603 SMD              
+R21      10k            Resistor 0603 SMD              
+R22      47k            Resistor 0603 SMD              
+R23      47k            Resistor 0603 SMD              
+R24      47k            Resistor 0603 SMD              
+R25      47k            Resistor 0603 SMD              
+R26      47k            Resistor 0603 SMD              
+R28      47k            Resistor 0603 SMD              
+R29      D.N.F.         Resistor 0603 SMD              
+R30      D.N.F.         Resistor 0603 SMD              
+R31      33R            Resistor 0603 SMD              
+U1       PCM5102       PCM5102   TSSOP20 TI         
+U2       REG101NA-3.3   REG101 3.3V SOT23-5            
+U3       REG101NA-3.3   REG101 3.3V SOT23-5            
+U4       REG101NA-3.3   REG101 3.3V SOT23-5            
+U5       NCP2811A       NCP2811A   'A' SUFFIX ON SEMI     
+U6       MC74VHC1G86    XOR GATE TSOP-5        
+U7       LM4861M        LM4861M    SOIC-8 AMP TI 
+U8       MC74VHC1G86    XOR GATE TSOP-5        
+U9       LM4861M        LM4861M    SOIC-8 AMP TI 
