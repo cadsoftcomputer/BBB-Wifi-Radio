@@ -15,6 +15,9 @@ Peter Gregory from the Beagleboard Groups forum, and Dr. Derek Molloy author of 
 
 Here are links to the resources used in developing this project, I tried to organize them as best as I could
 
+Inspiration
+* http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/
+
 Setting up MPC and MPD
 * http://crunchbang.org/forums/viewtopic.php?pid=182574
 
